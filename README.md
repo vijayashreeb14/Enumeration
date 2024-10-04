@@ -33,21 +33,43 @@ Google hacking, also known as Google dorking, is a technique that involves using
 site: This operator allows you to search for pages that are within a specific website or domain. For example, "site:example.com" would search for pages that are on the example.com domain.
 Following searches for all the sites that is in the domain yahoo.com
 
+
+![image](https://github.com/user-attachments/assets/b270da46-1750-467b-901f-531157bd31b4)
+
+
 filetype: This operator allows you to search for files of a specific type. For example, "filetype:pdf" would search for all PDF files.
 Following searches for pdf file in the domain yahoo.com
+
+
+![image](https://github.com/user-attachments/assets/40c83eea-2552-4285-9599-a53edfe81220)
 
 
 
 intext: This operator allows you to search for pages that contain specific text within the body of the page. For example, "intext:password" would search for pages that contain the word "password" within the body of the page.
 
+![image](https://github.com/user-attachments/assets/33c62df1-e736-4dbb-8c5c-bb1909a26287)
+
+
 
 inurl: This operator allows you to search for pages that contain specific text within the URL. For example, "inurl:admin" would search for pages that contain the word "admin" within the URL.
 
+![image](https://github.com/user-attachments/assets/01b7e93f-18e3-4f22-a4ef-c1846839fe90)
+
+
 intitle: This operator allows you to search for pages that contain specific text within the title tag. For example, "intitle:index of" would search for pages that contain "index of" within the title tag.
+
+![image](https://github.com/user-attachments/assets/8eafd7aa-6218-4d25-b632-1167a8882a02)
+
 
 link: This operator allows you to search for pages that link to a specific URL. For example, "link:example.com" would search for pages that link to the example.com domain.
 
+![image](https://github.com/user-attachments/assets/09e04322-1ef4-4690-97b5-1dd546a430ab)
+
+
 cache: This operator allows you to view the cached version of a page. For example, "cache:example.com" would show the cached version of the example.com website.
+
+
+![image](https://github.com/user-attachments/assets/47ffc6fa-6b69-446a-a311-f3e6fa3a8aac)
 
  
 #DNS Enumeration
@@ -59,12 +81,11 @@ Check all NS records for zone transfers
 Enumerate general DNS records for a given domain (MX, SOA, NS, A, AAAA, SPF , TXT)
 Perform common SRV Record Enumeration
 Top level domain expansion
+
 ## OUTPUT:
 
 
-
-
-
+![image](https://github.com/user-attachments/assets/d0d75c30-65bf-4da7-853b-0281e4aea02f)
 
 
 ##dnsenum
@@ -80,6 +101,12 @@ Calculate C class domain network ranges and perform whois queries on them (threa
 Perform reverse lookups on netranges (C class or/and whois netranges) (threaded).
 Write to domain_ips.txt file ip-blocks.
 This program is useful for pentesters, ethical hackers and forensics experts. It also can be used for security tests.
+
+
+![image](https://github.com/user-attachments/assets/68d92fd2-d06b-4241-8b56-b3107717bd98)
+
+
+![image](https://github.com/user-attachments/assets/ce75ec94-42a2-43cf-9c21-f1c7ced56585)
 
 
 ##smtp-user-enum
@@ -98,7 +125,8 @@ and issue appropriate commands
   
  ##Output
   
-  
+ ![image](https://github.com/user-attachments/assets/8075a9cd-a76a-46d1-9af5-679ebb36eb65)
+ 
 
 ## nmap –script smtp-enum-users.nse <hostname>
 
@@ -106,6 +134,8 @@ The smtp-enum-users.nse script attempts to enumerate the users on a SMTP server 
 
 
 ## OUTPUT:
+
+![image](https://github.com/user-attachments/assets/c588f7ac-dc4b-48b4-b4f4-f5fee3fd8a51)
 
 
 ## RESULT:
